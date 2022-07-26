@@ -1,9 +1,12 @@
 step 1: git init // initializes git on the folder
-step 2: git add <file name>
+step 2: git add [. | <file name>] // used to stage files for commit
 step 3: git commit -m <message>
-step 4: git push origin master
+step 4: git pull|fetch origin master 
+step 5: git push origin master
 
 
 
 other commands
 - git status // to show the status of the repository
+- git remote -v // to show the remote repository address
+- git remote add <remote name> <remote link>
